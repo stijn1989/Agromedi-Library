@@ -136,6 +136,7 @@ class ZeugGroep extends Weergave
                                 if (!empty($t['behandelingNaam'])) $data['rows'][$idx]['behandeling'] = $t['behandelingNaam'];
                                 if (!empty($t['begeleidingscontract'])) $data['rows'][$idx]['behandeling'] .= ' (begeleidingscontract: ' . $t['begeleidingscontract'] . ')';
                                 if (!empty($t['afdeling'])) $data['rows'][$idx]['afdeling'] = $t['afdeling'];
+                                $data['rows'][$idx]['tvd'] = $t['tvd'];
                                 $toevoegen = false; //vlag afzetten
                             }
                         }
@@ -159,7 +160,8 @@ class ZeugGroep extends Weergave
                         'reden' => $t['reden'],
                         'behandeling' => $t['behandelingNaam'] . (!empty($t['begeleidingscontract']) ? ' (begeleidingscontract: ' . $t['begeleidingscontract'] . ')' : ''),
                         'afdeling' => $t['afdeling'],
-                        'wachttijd' => $t['wachttijd']
+                        'wachttijd' => $t['wachttijd'],
+                        'tvd' => $t['tvd']
                     ];
                 }
             }
