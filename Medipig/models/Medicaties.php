@@ -3,76 +3,73 @@ use Phalcon\Mvc\Model;
 use Phalcon\Mvc\Model\Resultset\Simple as Resultset;
 
 /**
+ * Constantes voor de vergunning veld in medicaties.
+ */
+interface Vergunning
+{
+
+    /**
+     * Vergunning voor het in de handel brengen.
+     */
+    const HANDEL = 0;
+
+    /**
+     * Vergunning registratie
+     */
+    const REGISTRATIE = 1;
+
+    /**
+     * Vergunning handel / registratie
+     */
+    const HANDEL_REGISTRATIE = 2;
+
+    /**
+     * Vergunning parrallelinvoer
+     */
+    const PARRALLELINVOER = 3;
+
+}
+
+/**
+ * Constantes voor de aflevering veld in medicaties.
+ */
+interface Aflevering
+{
+
+    /**
+     * Vrije aflevering (= niet aan een geneeskundig voorschrift onderworpen),
+     */
+    const VRIJ = 0;
+
+    /**
+     * Geneeskundig voorschrift
+     */
+    const VOORSCHRIFT = 1;
+
+    /**
+     * Schriftelijke aanvraag van de patiënt
+     */
+    const AANVRAAG = 2;
+
+}
+
+/**
  * Medicaties model.
  *
- * dosis_eenheid is een numerieke waarde, zie de constantes Medicaties::EENHEID_*
- * dosis_kg is gewijzigd naar hoeveel dosis per liter water. Bv: 2gram per 10 liter water, dan is 10 hier de waarde.
- * dosis_lg is hoe groot de dosis per kilogram levend gewicht (bv: 2gr per 120kg LG), in deze kolom staat het getal 120.
- *
- * Via de methode #getDosisAsString wordt de dosis weergegeven als een leesbare tekst.
- *
- * @author  Stijn Leenknegt <stijn.leenknegt@itconnext.be>
- * @version 1.0
+ * @author  Stijn Leenknegt <stijn@diagro.io>
+ * @version 2.0
  */
 class Medicaties extends Model
 {
 
 
-    /**
-     * Eenheid milliliter/cc
-     */
-    const EENHEID_CC = 0;
-
-    /**
-     * Eenheid gram
-     */
-    const EENHEID_GR = 1;
-
-    /**
-     * Injectie medicatie
-     */
-    const VORM_INJECTIE = 0;
-
-    /**
-     * Poeder medicatie
-     */
-    const VORM_POEDER = 1;
-
-    const TYPE_ONBEKEND = 0;
-    const TYPE_ANTIBIOTICA = 1;
-    const TYPE_VACCINATIE = 2;
-    const TYPE_HORMONALE = 3;
-    const TYPE_NSAID = 4;
-    const TYPE_CORTICOSTEROIDE = 5;
-    const TYPE_PARASITAIRE = 6;
-    const TYPE_IJZER = 7;
-
-
     public $id;
+
+    public $cti;
 
     public $naam;
 
-    public $indicaties;
-
-    public $vorm = self::VORM_INJECTIE;
-
-    public $dosis;
-
-    public $standaard_dosis;
-
-    /**
-     * Is niet meer in DB opgeslaan maar wordt ingevuld na de fetch van een record.
-     * @var int
-     */
-    public $dosis_eenheid = self::EENHEID_CC;
-
-    public $dosis_kg; // = dosis per x liter H20
-
-    public $dosis_lg;
-
-    public $categorie;
-
-    public $type;
+    public $vergunning = Vergunning::HANDEL_REGISTRATIE;
 
 
     public function initialize()
