@@ -16,7 +16,7 @@ class Rapport extends \TCPDF
     {
         $dt = new \DateTime();
         $this->Cell(40, 20, $this->bedrijf->naam . ' (' . $this->bedrijf->beslagnr . ')', 0, false, 'L', 0, '', 0, false, 'C', 'B');
-        $this->Cell(0, 20, $dt->format('d/m/Y') , 0, false, 'R', 0, '', 0, false, 'C', 'B');
+        //$this->Cell(0, 20, $dt->format('d/m/Y') , 0, false, 'R', 0, '', 0, false, 'C', 'B');
     }
 
 
