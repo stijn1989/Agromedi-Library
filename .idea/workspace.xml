@@ -251,7 +251,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/library/phalcon-devtools/ide/3.3.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../library/phalcon-devtools/ide/3.3.1" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="users&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Users.php&#10;categori&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Categories.php&#10;medicat&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Medicaties.php&#10;Bedrijven&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Bedrijven.php&#10;licent&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Licenties.php&#10;bedrij&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Bedrijven.php&#10;medicaties&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Medicaties.php&#10;doelgr&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Doelgroepen.php&#10;licen&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Licenties.php&#10;lice&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Licenties.php&#10;licne&#9;null&#9;null&#10;klant&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Klanten.php" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -266,33 +266,14 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <envs />
-      <method />
+      <method v="2" />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
