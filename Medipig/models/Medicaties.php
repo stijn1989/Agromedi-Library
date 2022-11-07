@@ -62,6 +62,35 @@ interface Aflevering
 class Medicaties extends Model
 {
 
+    /**
+     * Eenheid milliliter/cc
+     */
+    const EENHEID_CC = 0;
+
+    /**
+     * Eenheid gram
+     */
+    const EENHEID_GR = 1;
+
+    /**
+     * Injectie medicatie
+     */
+    const VORM_INJECTIE = 0;
+
+    /**
+     * Poeder medicatie
+     */
+    const VORM_POEDER = 1;
+
+    const TYPE_ONBEKEND = 0;
+    const TYPE_ANTIBIOTICA = 1;
+    const TYPE_VACCINATIE = 2;
+    const TYPE_HORMONALE = 3;
+    const TYPE_NSAID = 4;
+    const TYPE_CORTICOSTEROIDE = 5;
+    const TYPE_PARASITAIRE = 6;
+    const TYPE_IJZER = 7;
+
 
     public $id;
 

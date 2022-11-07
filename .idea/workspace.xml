@@ -1,74 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29655cc0-14a0-4d39-9596-852ba14c9bba" name="Default" comment="" />
-    <ignored path="Library.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="29655cc0-14a0-4d39-9596-852ba14c9bba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medipig/models/Medicaties.php" beforeDir="false" afterPath="$PROJECT_DIR$/Medipig/models/Medicaties.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false">
+    <pharConfigPath>$PROJECT_DIR$/PHPMailer/composer.json</pharConfigPath>
+    <execution />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="Library" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZeugGroep.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ITC/Rapport/ZeugGroep.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.26923">
-              <caret line="130" column="36" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="127" />
-              <folding>
-                <marker date="1515605809387" expanded="true" signature="7195:7213" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Minimalistic.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ITC/Rapport/Minimalistic.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8921933">
-              <caret line="172" column="75" selection-start-line="172" selection-start-column="75" selection-end-line="172" selection-end-column="75" />
-              <folding>
-                <marker date="1537479019063" expanded="true" signature="5217:5233" placeholder="..." />
-                <marker date="1537479019063" expanded="true" signature="5253:5271" placeholder="..." />
-                <marker date="1537479019063" expanded="true" signature="6155:6170" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Standaard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ITC/Rapport/Standaard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1485292095757" expanded="true" signature="583:601" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature/medicaties" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -100,12 +57,15 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+  <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="D:\library\phalcon-devtools\ide\3.3.1" />
+      <path value="$PROJECT_DIR$/../../../../library/phalcon-devtools/ide/3.3.1" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -114,6 +74,7 @@
     <option name="width" value="2576" />
     <option name="height" value="1416" />
   </component>
+  <component name="ProjectId" id="2HE9tFiCBOFfPTzUhyf8koDd5MQ" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -133,16 +94,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -250,13 +202,19 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../library/phalcon-devtools/ide/3.3.1" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="users&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Users.php&#10;categori&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Categories.php&#10;medicat&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Medicaties.php&#10;Bedrijven&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Bedrijven.php&#10;licent&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Licenties.php&#10;bedrij&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Bedrijven.php&#10;medicaties&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Medicaties.php&#10;doelgr&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Doelgroepen.php&#10;licen&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Licenties.php&#10;lice&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Licenties.php&#10;licne&#9;null&#9;null&#10;klant&#9;FILE&#9;file://C:/Users/stijn/Projects/Library/Medipig/models/Klanten.php" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Diagro\Software\NodeJS\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Vet" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="js-jscs-nodeInterpreter" value="D:\Diagro\Software\NodeJS\node.exe" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -276,7 +234,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
@@ -288,21 +246,33 @@
       <changelist id="29655cc0-14a0-4d39-9596-852ba14c9bba" name="Default" comment="" />
       <created>1495748127282</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1495748127282</updated>
+      <workItem from="1667839591564" duration="155000" />
+      <workItem from="1667843248737" duration="1252000" />
     </task>
     <task id="LOCAL-00001" summary="TVD in ZeugGroep rapport weergave">
       <created>1515605634865</created>
       <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1515605634865</updated>
     </task>
     <task id="LOCAL-00002" summary="minimalistic rapport">
       <created>1537479560841</created>
       <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1537479560841</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="minimalistic rapport 2">
+      <created>1667839658553</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667839658553</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -329,6 +299,9 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -337,17 +310,11 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TVD in ZeugGroep rapport weergave" />
     <MESSAGE value="minimalistic rapport" />
-    <option name="LAST_COMMIT_MESSAGE" value="minimalistic rapport" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <MESSAGE value="minimalistic rapport 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="minimalistic rapport 2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Medipig/models/MedicatiesLog.php">
