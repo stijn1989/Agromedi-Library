@@ -76,7 +76,7 @@ class Bedrijven extends Model
 
     public function getDocPath()
     {
-        return dirname(__FILE__) . '/../../../agromedi.be/docs/' . $this->id . '/';
+        return dirname(__FILE__) . '/../../../MediPig/docs/' . $this->id . '/';
     }
 
 
